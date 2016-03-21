@@ -1,5 +1,76 @@
 ## Google fonts usage/description with sass mixins
 
+/* ******* MIXINS ********/
+
+/* 100 300 900 */
+=roboto($fontSize, $weight, $heightValue, $color)
+  font-family: "Roboto", sans-serif
+  font-size: $fontSize + px
+  font-size: (1.5 * $fontSize) + rem
+  font-weight: $weight
+  line-height: $heightValue + px
+  line-height: (1.5 * $heightValue) + rem
+  color: $color
+/* 400 700 900 + i */
+=playfair($fontSize, $weight, $heightValue, $color)
+  font-family: 'Playfair Display', serif
+  font-size: $fontSize + px
+  font-size: (1.5 * $fontSize) + rem
+  font-weight: $weight
+  line-height: $heightValue + px
+  line-height: (1.5 * $heightValue) + rem
+  color: $color
+/* 300 400 700 900 +i */
+=merriweather($fontSize, $weight, $heightValue, $color)
+  font-family: "Merriweather", serif
+  font-size: $fontSize + px
+  font-size: (1.5 * $fontSize) + rem
+  font-weight: $weight
+  line-height: $heightValue + px
+  line-height: (1.5 * $heightValue) + rem
+  color: $color
+/* 400 700 900 + i */
+=alegreya($fontSize, $weight, $heightValue, $color)
+  font-family: "Alegreya", sans-serif
+  font-size: $fontSize + px
+  font-size: (1.5 * $fontSize) + rem
+  font-weight: $weight
+  line-height: $heightValue + px
+  line-height: (1.5 * $heightValue) + rem
+  color: $color
+
+// system fonts
+
+=neue($fontSize, $weight, $heightValue, $color)
+  font-family: "Helvetica Neue", sans-serif
+  font-size: $fontSize + px
+  font-size: (1.5 * $fontSize) + rem
+  font-weight: $weight
+  line-height: $heightValue + px
+  line-height: (1.5 * $heightValue) + rem
+  color: $color
+=tahoma($fontSize, $weight, $heightValue, $color)
+  font-family: "Tahoma", sans-serif
+  font-size: $fontSize + px
+  font-size: (1.5 * $fontSize) + rem
+  font-weight: $weight
+  line-height: $heightValue + px
+  line-height: (1.5 * $heightValue) + rem
+  color: $color
+
+// code style
+
+=monospace($fontSize, $weight, $heightValue, $color)
+  font-family: "Monospace", sans-serif
+  font-size: $fontSize + px
+  font-size: (1.5 * $fontSize) + rem
+  font-weight: $weight
+  line-height: $heightValue + px
+  line-height: (1.5 * $heightValue) + rem
+  color: $color
+
+-
+
 Merriweather Sans (thin and neat for paragraph text)
 
 @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300,300italic,400italic,700,700italic,800,800italic)

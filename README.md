@@ -25,9 +25,10 @@ Oswald (tall and squashed better for paragraph text)
 // Montserrat (wide and circular presents as decorative paragraph text)
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700)
 
-mixins for unused fonts above
+## mixins 
 
 /* 100 300 400 700 900 + i */
+
 =lato($fontSize, $weight, $heightValue, $color)
   font-family: "Lato", sans-serif
   font-size: $fontSize + px
@@ -36,7 +37,9 @@ mixins for unused fonts above
   line-height: $heightValue + px
   line-height: (1.5 * $heightValue) + rem
   color: $color
+  
 /* 100 300 700 900 */
+
 =raleway($fontSize, $weight, $heightValue, $color)
   font-family: "Raleway", sans-serif
   font-size: $fontSize + px
@@ -45,7 +48,9 @@ mixins for unused fonts above
   line-height: $heightValue + px
   line-height: (1.5 * $heightValue) + rem
   color: $color
+  
 /* 300 400 700 */
+
 =oswald($fontSize, $weight, $heightValue, $color)
   font-family: "Oswald", sans-serif
   font-size: $fontSize + px
@@ -54,7 +59,9 @@ mixins for unused fonts above
   line-height: $heightValue + px
   line-height: (1.5 * $heightValue) + rem
   color: $color
+  
 /* 400 500 800 */
+
 =dosis($fontSize, $weight, $heightValue, $color)
   font-family: "Dosis", sans-serif
   font-size: $fontSize + px
@@ -63,7 +70,9 @@ mixins for unused fonts above
   line-height: $heightValue + px
   line-height: (1.5 * $heightValue) + rem
   color: $color
+  
 /* 400 700 */
+
 =montserrat($fontSize, $weight, $heightValue, $color)
   font-family: "Montserrat", sans-serif
   font-size: $fontSize + px
@@ -72,7 +81,9 @@ mixins for unused fonts above
   line-height: $heightValue + px
   line-height: (1.5 * $heightValue) + rem
   color: $color
+  
 /* 300 400 600 700 800 + i */
+
 =opensans($fontSize, $weight, $heightValue, $color)
   font-family: "Open Sans", sans-serif
   font-size: $fontSize + px
@@ -81,7 +92,9 @@ mixins for unused fonts above
   line-height: $heightValue + px
   line-height: (1.5 * $heightValue) + rem
   color: $color
+  
 /* 300 400 700 800 +i */
+
 =merriweatherSans($fontSize, $weight, $heightValue, $color)
   font-family: "Merriweather Sans", sans-serif
   font-size: $fontSize + px
@@ -90,7 +103,9 @@ mixins for unused fonts above
   line-height: $heightValue + px
   line-height: (1.5 * $heightValue) + rem
   color: $color
+  
   /* 400 700 */
+  
 =inconsolata($fontSize, $weight, $heightValue, $color)
   font-family: "Inconsolata", sans-serif
   font-size: $fontSize + px

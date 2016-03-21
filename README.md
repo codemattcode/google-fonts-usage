@@ -1,28 +1,37 @@
 # google-fonts-usage
 
-// merriweather Sans (thin and neat for paragraph text)
+Merriweather Sans (thin and neat for paragraph text)
+
 @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300,300italic,400italic,700,700italic,800,800italic)
 
-// Open Sans (modern and clean best on paragraphs)
+Open Sans (modern and clean best on paragraphs)
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,80italic,400,300,600,700,800)
 
-// Lato (pencil thin headlines and CLEAN AND READABLE SANS FOR PARAGRAPHS)(ANOREXIC HEADLINES IN $LIGHT)
+Lato (pencil thin headlines and CLEAN AND READABLE SANS FOR PARAGRAPHS)(ANOREXIC HEADLINES IN $LIGHT)
+
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic)
 
-// Raleway (has a 'v cross' 'W' better for paragraph text)(DELICATE IN $LIGHT)
+Raleway (has a 'v cross' 'W' better for paragraph text)(DELICATE IN $LIGHT)
+
 @import url(http://fonts.googleapis.com/css?family=Raleway:100,300,900)
 
-// specific attributes and not general purpose or goto fonts
+#### specific attributes and not general purpose or goto fonts
+
 Dosis (looks quirky spacey rounded headlines only - curly lower case 'g')
+
 @import url(http://fonts.googleapis.com/css?family=Dosis:400,500,800)
 
 Oswald (tall and squashed better for paragraph text)
+
 @import url(http://fonts.googleapis.com/css?family=Oswald:300)
 
-// Inconsolata (fidgety on headlines decorative code-ish for paragraphs)
+Inconsolata (fidgety on headlines decorative code-ish for paragraphs)
+
 @import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700)
 
-// Montserrat (wide and circular presents as decorative paragraph text)
+Montserrat (wide and circular presents as decorative paragraph text)
+
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700)
 
 ## mixins 

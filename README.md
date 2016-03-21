@@ -1,4 +1,4 @@
-# google-fonts-usage
+## Google fonts usage/description with sass mixins
 
 Merriweather Sans (thin and neat for paragraph text)
 
@@ -16,7 +16,7 @@ Raleway (has a 'v cross' 'W' better for paragraph text)(DELICATE IN $LIGHT)
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:100,300,900)
 
-#### specific attributes and not general purpose or goto fonts
+#### Specific attributes and not general purpose or goto fonts
 
 Dosis (looks quirky spacey rounded headlines only - curly lower case 'g')
 
@@ -34,7 +34,7 @@ Montserrat (wide and circular presents as decorative paragraph text)
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700)
 
-## mixins 
+## Mixins 
 
 /* 100 300 400 700 900 + i */
 

@@ -1,10 +1,8 @@
 ## Google fonts usage/description with sass mixins
 
-`<style>
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
-</style>
-`
-*font-family: 'Roboto Slab', serif;*
+
+font-family: 'Roboto Slab', serif;
 
 /* ******* MIXINS ********/
 
